@@ -21,7 +21,7 @@
     <p>Some things are sweeter when they have a little secret. Enter the password to open your birthday gift.</p>
     
 <form id="password-form" onsubmit="event.preventDefault(); if(document.getElementById('password').value === '21102007'){document.getElementById('gate').classList.add('hidden');document.getElementById('birthday').classList.remove('hidden');}else{document.getElementById('error').textContent='Wrong password. Try again ♡';} return false;">
-  <div class="field"><input id="21102007" type="password" placeholder="Enter the secret password" autocomplete="off" aria-label="Secret password" required><button class="btn" type="submit">Unlock ♡</button></div></form>
+  <div class="field"><input id="password" type="password" placeholder="Enter the secret password" autocomplete="off" aria-label="Secret password" required><button class="btn" type="submit">Unlock ♡</button></div></form>
     <p id="error" class="error" role="status" aria-live="polite"></p><p class="small">Made with a little extra love ✨</p>
   </section>
 </main>
